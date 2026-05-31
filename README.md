@@ -120,9 +120,6 @@ Recommendation Engine
 Skills + Interests + Tags Matching
 
 ---
-
-## 📂 Project Structure
-
 ## 📂 Project Structure
 
 ```text
@@ -156,7 +153,7 @@ Online-Learning-Course-Recommendation-Platform/
 
 ---
 
-## 🗄 Database Collections
+### 🗄 Database Collections
 
 ### Users
 
