@@ -123,32 +123,36 @@ Skills + Interests + Tags Matching
 
 ## 📂 Project Structure
 
-Online-Learning-Course-Recommendation-Platform/
+## 📂 Project Structure
 
+```text
+Online-Learning-Course-Recommendation-Platform/
+│
 ├── client/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── services/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ └── package.json
+│   ├── src/
+│   │   ├── components/       # Reusable UI components
+│   │   ├── context/          # Authentication Context API
+│   │   ├── pages/            # Application pages
+│   │   ├── services/         # Axios API services
+│   │   ├── App.jsx           # Main React component
+│   │   └── main.jsx          # React entry point
+│   │
+│   └── package.json
 │
 ├── server/
-│ ├── config/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── seed/
-│ ├── .env
-│ ├── server.js
-│ └── package.json
+│   ├── config/              # Database configuration
+│   ├── controllers/         # Business logic
+│   ├── middleware/          # JWT authentication middleware
+│   ├── models/              # MongoDB schemas
+│   ├── routes/              # API routes
+│   ├── seed/                # Sample course data
+│   ├── .env                 # Environment variables (not uploaded)
+│   ├── server.js            # Backend entry point
+│   └── package.json
 │
-├── README.md
-├── .gitignore
-└── .env.example
+├── README.md                # Project documentation
+├── .gitignore               # Ignored files and folders
+└── .env.example             # Sample environment configuration
 
 ---
 
